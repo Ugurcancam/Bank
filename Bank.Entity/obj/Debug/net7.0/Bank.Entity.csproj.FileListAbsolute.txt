@@ -1,0 +1,14 @@
+D:\Github\Bank\Bank.Entity\bin\Debug\net7.0\Bank.Entity.deps.json
+D:\Github\Bank\Bank.Entity\bin\Debug\net7.0\Bank.Entity.runtimeconfig.json
+D:\Github\Bank\Bank.Entity\bin\Debug\net7.0\Bank.Entity.dll
+D:\Github\Bank\Bank.Entity\bin\Debug\net7.0\Bank.Entity.pdb
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\Bank.Entity.csproj.AssemblyReference.cache
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\Bank.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\Bank.Entity.AssemblyInfoInputs.cache
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\Bank.Entity.AssemblyInfo.cs
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\Bank.Entity.csproj.CoreCompileInputs.cache
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\Bank.Entity.dll
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\refint\Bank.Entity.dll
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\Bank.Entity.pdb
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\Bank.Entity.genruntimeconfig.cache
+D:\Github\Bank\Bank.Entity\obj\Debug\net7.0\ref\Bank.Entity.dll
