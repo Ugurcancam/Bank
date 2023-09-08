@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj": {}
+    "D:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj": {}
   },
   "projects": {
-    "d:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj": {
+    "D:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj",
+        "projectUniqueName": "D:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj",
         "projectName": "Bank.Dto",
-        "projectPath": "d:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj",
+        "projectPath": "D:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj",
         "packagesPath": "C:\\Users\\ugurc\\.nuget\\packages\\",
-        "outputPath": "d:\\Github\\Bank\\Bank.Dto\\obj\\",
+        "outputPath": "D:\\Github\\Bank\\Bank.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ugurc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,6 +53,8 @@
               "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
             }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e+9UhxfecyhPS1Mbhq+wKW6cQTag4uJ6K+fmpFpxvH2QJCpQhZ3H9fyqKn/1hEYm1ojcF5N0wLXFRWv9ILGdWw==",
+  "dgSpecHash": "pknvuEeXhZeGf2yLz+abLoiwQ51WoG7iRcOz+qHWo/sep6/xHBrArobjFC91Ae/zLu77Rrhr+fG986n+RSrlZQ==",
   "success": true,
-  "projectFilePath": "d:\\Github\\Bank\\Bank.webui\\Bank.webui.csproj",
+  "projectFilePath": "D:\\Github\\Bank\\Bank.webui\\Bank.webui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ugurc\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ugurc\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

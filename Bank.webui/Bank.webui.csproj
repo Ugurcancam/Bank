@@ -25,6 +25,7 @@
     <ProjectReference Include="..\Bank.Entity\Bank.Entity.csproj" />
     <ProjectReference Include="..\Bank.Data\Bank.Data.csproj" />
     <ProjectReference Include="..\Bank.Business\Bank.Business.csproj" />
+    <ProjectReference Include="..\Bank.Dto\Bank.Dto.csproj" />
   </ItemGroup>
 
 </Project>

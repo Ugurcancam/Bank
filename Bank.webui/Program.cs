@@ -1,7 +1,14 @@
+using Bank.Data.Concrete;
+using Bank.Entity;
+using Bank.Entity.Concrete;
+using Bank.webui.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<BankContext>();
+builder.Services.AddIdentity<AppUser,AppRole>().AddEntityFrameworkStores<BankContext>().AddErrorDescriber<CustomIdentityValidator>();
 
 var app = builder.Build();
 
@@ -17,7 +24,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

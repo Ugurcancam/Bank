@@ -1,0 +1,14 @@
+D:\Github\Bank\Bank.Dto\bin\Debug\net7.0\Bank.Dto.deps.json
+D:\Github\Bank\Bank.Dto\bin\Debug\net7.0\Bank.Dto.runtimeconfig.json
+D:\Github\Bank\Bank.Dto\bin\Debug\net7.0\Bank.Dto.dll
+D:\Github\Bank\Bank.Dto\bin\Debug\net7.0\Bank.Dto.pdb
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\Bank.Dto.csproj.AssemblyReference.cache
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\Bank.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\Bank.Dto.AssemblyInfoInputs.cache
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\Bank.Dto.AssemblyInfo.cs
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\Bank.Dto.csproj.CoreCompileInputs.cache
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\Bank.Dto.dll
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\refint\Bank.Dto.dll
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\Bank.Dto.pdb
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\Bank.Dto.genruntimeconfig.cache
+D:\Github\Bank\Bank.Dto\obj\Debug\net7.0\ref\Bank.Dto.dll

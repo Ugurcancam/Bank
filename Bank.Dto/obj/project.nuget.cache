@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yp4UzuiZLYhq932p2IYJXrKX0ojKr7RQJFbOOqKFqCq/FKgtba8B3zRwPwVQ2iyd+hiN56WWjM1R0NHONCY3mg==",
+  "dgSpecHash": "a9LeIvLCeHU4P59KXAWJh07uy9GHuhWXkC4IP3ut5uKLpU50Ab2b5Trx5nuW3XFBRMYmQSJQmkJ5wGWBiLcd/w==",
   "success": true,
-  "projectFilePath": "d:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj",
+  "projectFilePath": "D:\\Github\\Bank\\Bank.Dto\\Bank.Dto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ugurc\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ugurc\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
