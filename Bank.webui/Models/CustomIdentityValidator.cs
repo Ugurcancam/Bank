@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Bank.webui.Models
 {
-    public class CustomerIdentityValidator : IdentityErrorDescriber
+    public class CustomIdentityValidator : IdentityErrorDescriber
     {
         public override IdentityError PasswordTooShort(int length)
         {

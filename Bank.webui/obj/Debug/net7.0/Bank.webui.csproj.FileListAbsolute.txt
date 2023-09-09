@@ -87,3 +87,7 @@ D:\Github\Bank\Bank.webui\obj\Debug\net7.0\refint\Bank.webui.dll
 D:\Github\Bank\Bank.webui\obj\Debug\net7.0\Bank.webui.pdb
 D:\Github\Bank\Bank.webui\obj\Debug\net7.0\Bank.webui.genruntimeconfig.cache
 D:\Github\Bank\Bank.webui\obj\Debug\net7.0\ref\Bank.webui.dll
+D:\Github\Bank\Bank.webui\bin\Debug\net7.0\MailKit.dll
+D:\Github\Bank\Bank.webui\bin\Debug\net7.0\MimeKit.dll
+D:\Github\Bank\Bank.webui\bin\Debug\net7.0\NETCore.MailKit.dll
+D:\Github\Bank\Bank.webui\bin\Debug\net7.0\BouncyCastle.Crypto.dll

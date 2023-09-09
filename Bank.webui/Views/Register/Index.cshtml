@@ -43,6 +43,8 @@
 			<input type="email" asp-for="Email" placeholder="Email" required="">
 			<input type="password" asp-for="Password" placeholder="Şifre" required="">
 			<input type="password" asp-for="ConfirmPassword" placeholder="Şifreyi Onayla" required="">
+			<div class="text-white" asp-validation-summary="ModelOnly"></div>
+			<br><br>
 			<ul class="agileinfotickwthree">
 				<li>
 					<input type="checkbox" id="brand1" value="">
@@ -51,7 +53,7 @@
 				</li>
 			</ul>
 			<div class="aitssendbuttonw3ls">
-				<input type="submit" value="LOGIN">
+				<input type="submit" value="Kayıt Ol">
 				<p> To register new account <span>→</span> <a class="w3_play_icon1" href="#small-dialog1"> Click
 						Here</a></p>
 				<div class="clear"></div>
