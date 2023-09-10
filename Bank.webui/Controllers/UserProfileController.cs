@@ -46,7 +46,7 @@ namespace Bank.webui.Controllers
                 user.City = dto.City;
                 user.District = dto.District;
                 user.ImageUrl = dto.ImageUrl;
-                // user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, dto.Password);
+                user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, dto.Password);
                 var result = await _userManager.UpdateAsync(user);
                 if(result.Succeeded)
                 {
