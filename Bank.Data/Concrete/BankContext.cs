@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
 using Bank.Entity;
@@ -17,5 +18,20 @@ namespace Bank.Data.Concrete
         }
         public DbSet<CustomerAccount> CustomerAccounts { get; set; }
         public DbSet<CustomerAccountTransictions> CustomerAccountTransictionses { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<CustomerAccountTransictions>()
+                            .HasOne(x=> x.SenderCustomer)
+                            .WithMany(y=> y.CustomerSender)
+                            .HasForeignKey(z=>z.SenderId)
+                            .OnDelete(DeleteBehavior.ClientSetNull);
+
+            builder.Entity<CustomerAccountTransictions>()
+                            .HasOne(x=> x.ReceiverCustomer)
+                            .WithMany(y=> y.CustomerReceiver)
+                            .HasForeignKey(z=>z.ReceiverId)
+                            .OnDelete(DeleteBehavior.ClientSetNull);
+            base.OnModelCreating(builder);                
+        }
     }
 }

@@ -4,6 +4,7 @@ using Bank.Data.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bank.Data.Migrations
 {
     [DbContext(typeof(BankContext))]
-    partial class BankContextModelSnapshot : ModelSnapshot
+    [Migration("20230910161209_InitialCreate7")]
+    partial class InitialCreate7
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -151,9 +154,8 @@ namespace Bank.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CustomerAccountBalance")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("CustomerAccountBalance")
+                        .HasColumnType("bit");
 
                     b.Property<string>("CustomerAccountCurrency")
                         .IsRequired()
@@ -178,9 +180,8 @@ namespace Bank.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Amount")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("Amount")
+                        .HasColumnType("bit");
 
                     b.Property<DateTime>("ProcessDate")
                         .HasColumnType("datetime2");

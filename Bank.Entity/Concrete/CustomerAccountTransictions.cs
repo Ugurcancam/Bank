@@ -9,9 +9,12 @@ namespace Bank.Entity.Concrete
     {
         public int Id { get; set; }
         public string TransictionType { get; set; }
-        public bool Amount { get; set; }
+        public string Amount { get; set; }
         public DateTime ProcessDate { get; set; }
-        
+        public int? SenderId { get; set; }
+        public int? ReceiverId { get; set; }
+        public CustomerAccount SenderCustomer { get; set; }
+        public CustomerAccount ReceiverCustomer { get; set; }
 
     }
 }
