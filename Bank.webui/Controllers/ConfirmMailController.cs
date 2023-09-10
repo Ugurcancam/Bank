@@ -30,9 +30,11 @@ namespace Bank.webui.Controllers
         public async Task<IActionResult> Index(ConfirmMailViewModel model)
         {
             var user = await _userManager.FindByEmailAsync(model.Mail);
-            if(user.ConfirmCode == model.ConfirmCode){
-                 
-                return RedirectToAction("Index","UserProfile");
+            if(user.ConfirmCode == model.ConfirmCode)
+            {
+                user.EmailConfirmed = true; 
+                await _userManager.UpdateAsync(user);
+                return RedirectToAction("Index","Login");
             }
             return View();
 

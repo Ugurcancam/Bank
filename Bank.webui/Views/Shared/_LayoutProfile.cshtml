@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Profilim </title>
+
+    <!-- Bootstrap -->
+    <link href="~/gentela-gh-pages/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/gentela-gh-pages/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="~/gentela-gh-pages/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="~/gentela-gh-pages/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link href="~/gentela-gh-pages/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="~/gentela-gh-pages/vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link href="~/gentela-gh-pages/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+ 
+    <!-- Custom Theme Style -->
+    <link href="~/gentela-gh-pages/build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        @await Html.PartialAsync("_SidebarProfile")
+
+        <!-- top navigation -->
+        @await Html.PartialAsync("_NavbarProfile")
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        @RenderBody()
+        <!-- /page content -->
+
+        <!-- footer content -->
+        @await Html.PartialAsync("_FooterProfile")
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="~/gentela-gh-pages/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/gentela-gh-pages/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/gentela-gh-pages/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="~/gentela-gh-pages/vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="~/gentela-gh-pages/vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="~/gentela-gh-pages/vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="~/gentela-gh-pages/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="~/gentela-gh-pages/vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="~/gentela-gh-pages/vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="~/gentela-gh-pages/vendors/Flot/jquery.flot.js"></script>
+    <script src="~/gentela-gh-pages/vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="~/gentela-gh-pages/vendors/Flot/jquery.flot.time.js"></script>
+    <script src="~/gentela-gh-pages/vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="~/gentela-gh-pages/vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="~/gentela-gh-pages/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="~/gentela-gh-pages/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="~/gentela-gh-pages/vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="~/gentela-gh-pages/vendors/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="~/gentela-gh-pages/vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="~/gentela-gh-pages/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="~/gentela-gh-pages/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="~/gentela-gh-pages/vendors/moment/min/moment.min.js"></script>
+    <script src="~/gentela-gh-pages/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="~/gentela-gh-pages/build/js/custom.min.js"></script>
+  </body>
+</html>

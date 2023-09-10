@@ -1,4 +1,4 @@
-@model AppUserRegisterDto
+@model LoginViewModel
 <!DOCTYPE html>
 <html>
 
@@ -33,27 +33,23 @@
 
 <body>
 
-	<h1>Müşteri Kayıt Formu</h1>
+	<h1>Müşteri Giriş Formu</h1>
 
 	<div class="w3layoutscontaineragileits">
-		<h2>Yeni Müşteri</h2>
-		<form  method="post" asp-controller="Register" asp-action="Index">
-			<input type="text" asp-for="NameSurname" placeholder="Ad Soyad " required="">
+		<h2>Hesaba Giriş</h2>
+		<form  method="post" asp-controller="Login" asp-action="Index">
 			<input type="text" asp-for="Username" placeholder="Kullanıcı adı" required="">
-			<input type="email" asp-for="Email" placeholder="Email" required="">
 			<input type="password" asp-for="Password" placeholder="Şifre" required="">
-			<input type="password" asp-for="ConfirmPassword" placeholder="Şifreyi Onayla" required="">
-			<div class="text-white" asp-validation-summary="ModelOnly"></div>
 			<br><br>
 			<ul class="agileinfotickwthree">
 				<li>
 					<input type="checkbox" id="brand1" value="">
-					<label for="brand1"><span></span>Remember me</label>
-					<a href="#">Forgot password?</a>
+					<label for="brand1"><span></span>Beni hatırla</label>
+					<a asp-controller="Register" asp-action="Index">Yeni Hesap Oluştur</a>
 				</li>
 			</ul>
 			<div class="aitssendbuttonw3ls">
-				<input type="submit" value="Kayıt Ol">
+				<input type="submit" value="Giris Yap">
 				<p> To register new account <span>→</span> <a class="w3_play_icon1" href="#small-dialog1"> Click
 						Here</a></p>
 				<div class="clear"></div>
